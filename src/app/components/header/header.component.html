@@ -1,0 +1,15 @@
+<div class="toolbar" role="banner">
+  
+  <a [routerLink]="['/']">
+    <img width="40" alt="Angular Logo" src="../../../assets/icon.png"/>
+  </a>
+
+    <span>Hello <span><a [routerLink]="['/profile']" style="text-decoration: none; color: #fff;">Eben</a></span></span>
+      <div class="spacer"></div>
+      <ul>
+        <li routerLinkActive=router-link-active><a [routerLink]="['/login']"  >Login</a></li>
+        <li routerLinkActive=router-link-active><a [routerLink]="['/register']">Register</a></li>
+        <li routerLinkActive=router-link-active><a [routerLink]="['/dashboard']">Dashboard</a></li>
+      </ul>
+  </div>
+  
